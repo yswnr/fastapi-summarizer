@@ -27,3 +27,13 @@ This is a simple web app built using **FastAPI** that takes long text as input a
    ```bash
    git clone https://github.com/<your-username>/fastapi-summarizer.git
    cd fastapi-summarizer
+2. **Create a virtual env**
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   pip install -r requirements.txt
+3. **Run the app**
+   ```bash
+   uvicorn app.main:app --reload
+4. **open website**
+   http://127.0.0.1:8000
