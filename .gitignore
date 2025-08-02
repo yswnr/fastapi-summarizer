@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pkl
+*.pt
+.env
+*.egg-info/
+venv/
+.idea/
+.DS_Store
+docker_image.tar
